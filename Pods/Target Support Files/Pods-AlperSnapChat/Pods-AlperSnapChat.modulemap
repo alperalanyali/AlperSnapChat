@@ -1,0 +1,6 @@
+framework module Pods_AlperSnapChat {
+  umbrella header "Pods-AlperSnapChat-umbrella.h"
+
+  export *
+  module * { export * }
+}
