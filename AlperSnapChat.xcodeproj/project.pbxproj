@@ -16,6 +16,8 @@
 		4EE4570C20D99BDF00A1710D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4570A20D99BDF00A1710D /* Main.storyboard */; };
 		4EE4570E20D99BF200A1710D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4570D20D99BF200A1710D /* Assets.xcassets */; };
 		4EE4571120D99BF200A1710D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4570F20D99BF200A1710D /* LaunchScreen.storyboard */; };
+		4EFB877320E1241B002A675C /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB877220E1241B002A675C /* RoundTextField.swift */; };
+		4EFB877520E14169002A675C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB877420E14169002A675C /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		4EE4570D20D99BF200A1710D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EE4571020D99BF200A1710D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EE4571220D99BF200A1710D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFB877220E1241B002A675C /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		4EFB877420E14169002A675C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		59076EA01E3170168640935B /* Pods_AlperSnapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlperSnapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C168AE47EC20DE916007EB /* Pods-AlperSnapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlperSnapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlperSnapChat/Pods-AlperSnapChat.debug.xcconfig"; sourceTree = "<group>"; };
 		D832536FA47C9E6E511567E9 /* Pods-AlperSnapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlperSnapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlperSnapChat/Pods-AlperSnapChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				4E35F00C20DAD60900124405 /* PreviewView.swift */,
+				4EFB877220E1241B002A675C /* RoundTextField.swift */,
+				4EFB877420E14169002A675C /* RoundButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -249,8 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFB877520E14169002A675C /* RoundButton.swift in Sources */,
 				4EE4570720D99BDE00A1710D /* AppDelegate.swift in Sources */,
 				4E02FC1420DD1EEA000D5338 /* CameraViewController.swift in Sources */,
+				4EFB877320E1241B002A675C /* RoundTextField.swift in Sources */,
 				4E35F00F20DADBCB00124405 /* PhotoCaptureDelegate.swift in Sources */,
 				4E35F00D20DAD60900124405 /* PreviewView.swift in Sources */,
 			);
