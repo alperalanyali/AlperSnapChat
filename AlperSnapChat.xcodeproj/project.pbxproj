@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D300826D6D31653D1C0D7E4 /* Pods_AlperSnapChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59076EA01E3170168640935B /* Pods_AlperSnapChat.framework */; };
+		4E02FC1420DD1EEA000D5338 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E02FC1320DD1EEA000D5338 /* CameraViewController.swift */; };
+		4E35F00D20DAD60900124405 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35F00C20DAD60900124405 /* PreviewView.swift */; };
+		4E35F00F20DADBCB00124405 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35F00E20DADBCB00124405 /* PhotoCaptureDelegate.swift */; };
+		4EA5207020E0FF5100921ABC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EA5206F20E0FF5000921ABC /* GoogleService-Info.plist */; };
 		4EE4570720D99BDE00A1710D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4570620D99BDE00A1710D /* AppDelegate.swift */; };
-		4EE4570920D99BDF00A1710D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4570820D99BDF00A1710D /* ViewController.swift */; };
 		4EE4570C20D99BDF00A1710D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4570A20D99BDF00A1710D /* Main.storyboard */; };
 		4EE4570E20D99BF200A1710D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4570D20D99BF200A1710D /* Assets.xcassets */; };
 		4EE4571120D99BF200A1710D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4570F20D99BF200A1710D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E02FC1320DD1EEA000D5338 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4E35F00C20DAD60900124405 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		4E35F00E20DADBCB00124405 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		4EA21F0220DC7D8700D2D020 /* AlperSnapChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlperSnapChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EA5206F20E0FF5000921ABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4EE4570320D99BDE00A1710D /* AlperSnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlperSnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE4570620D99BDE00A1710D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EE4570820D99BDF00A1710D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EE4570B20D99BDF00A1710D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EE4570D20D99BF200A1710D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EE4571020D99BF200A1710D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EE4571220D99BF200A1710D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59076EA01E3170168640935B /* Pods_AlperSnapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlperSnapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C168AE47EC20DE916007EB /* Pods-AlperSnapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlperSnapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlperSnapChat/Pods-AlperSnapChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D832536FA47C9E6E511567E9 /* Pods-AlperSnapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlperSnapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlperSnapChat/Pods-AlperSnapChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D300826D6D31653D1C0D7E4 /* Pods_AlperSnapChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20FC1281C506B5F90B187170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59076EA01E3170168640935B /* Pods_AlperSnapChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA5206B20E0F1A000921ABC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E02FC1320DD1EEA000D5338 /* CameraViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4EA5206C20E0F1B400921ABC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E35F00C20DAD60900124405 /* PreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EA5206D20E0F1BE00921ABC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EA5206E20E0F1C600921ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE4570620D99BDE00A1710D /* AppDelegate.swift */,
+				4EE4570D20D99BF200A1710D /* Assets.xcassets */,
+				4EE4570F20D99BF200A1710D /* LaunchScreen.storyboard */,
+				4E35F00E20DADBCB00124405 /* PhotoCaptureDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4EE456FA20D99BDD00A1710D = {
 			isa = PBXGroup;
 			children = (
 				4EE4570520D99BDE00A1710D /* AlperSnapChat */,
 				4EE4570420D99BDE00A1710D /* Products */,
+				776D0A2AFD1A97137521E80E /* Pods */,
+				20FC1281C506B5F90B187170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,25 @@
 		4EE4570520D99BDE00A1710D /* AlperSnapChat */ = {
 			isa = PBXGroup;
 			children = (
-				4EE4570620D99BDE00A1710D /* AppDelegate.swift */,
-				4EE4570820D99BDF00A1710D /* ViewController.swift */,
+				4EA5206E20E0F1C600921ABC /* Supporting Files */,
+				4EA5206D20E0F1BE00921ABC /* Model */,
+				4EA5206B20E0F1A000921ABC /* Controller */,
+				4EA5206C20E0F1B400921ABC /* View */,
 				4EE4570A20D99BDF00A1710D /* Main.storyboard */,
-				4EE4570D20D99BF200A1710D /* Assets.xcassets */,
-				4EE4570F20D99BF200A1710D /* LaunchScreen.storyboard */,
+				4EA5206F20E0FF5000921ABC /* GoogleService-Info.plist */,
 				4EE4571220D99BF200A1710D /* Info.plist */,
+				4EA21F0220DC7D8700D2D020 /* AlperSnapChat-Bridging-Header.h */,
 			);
 			path = AlperSnapChat;
+			sourceTree = "<group>";
+		};
+		776D0A2AFD1A97137521E80E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6C168AE47EC20DE916007EB /* Pods-AlperSnapChat.debug.xcconfig */,
+				D832536FA47C9E6E511567E9 /* Pods-AlperSnapChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EE4571520D99BF200A1710D /* Build configuration list for PBXNativeTarget "AlperSnapChat" */;
 			buildPhases = (
+				FFAC0F8751E4255FC04CB704 /* [CP] Check Pods Manifest.lock */,
 				4EE456FF20D99BDE00A1710D /* Sources */,
 				4EE4570020D99BDE00A1710D /* Frameworks */,
 				4EE4570120D99BDE00A1710D /* Resources */,
+				2F09E048369EE04916B8D649 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +165,7 @@
 				TargetAttributes = {
 					4EE4570220D99BDE00A1710D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -123,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE4571120D99BF200A1710D /* LaunchScreen.storyboard in Resources */,
+				4EA5207020E0FF5100921ABC /* GoogleService-Info.plist in Resources */,
 				4EE4570E20D99BF200A1710D /* Assets.xcassets in Resources */,
 				4EE4570C20D99BDF00A1710D /* Main.storyboard in Resources */,
 			);
@@ -130,13 +201,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F09E048369EE04916B8D649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlperSnapChat/Pods-AlperSnapChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlperSnapChat/Pods-AlperSnapChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAC0F8751E4255FC04CB704 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlperSnapChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EE456FF20D99BDE00A1710D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE4570920D99BDF00A1710D /* ViewController.swift in Sources */,
 				4EE4570720D99BDE00A1710D /* AppDelegate.swift in Sources */,
+				4E02FC1420DD1EEA000D5338 /* CameraViewController.swift in Sources */,
+				4E35F00F20DADBCB00124405 /* PhotoCaptureDelegate.swift in Sources */,
+				4E35F00D20DAD60900124405 /* PreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +394,10 @@
 		};
 		4EE4571620D99BF200A1710D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C168AE47EC20DE916007EB /* Pods-AlperSnapChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXLJ3EBPHP;
 				INFOPLIST_FILE = AlperSnapChat/Info.plist;
@@ -289,6 +407,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alperalanyali.AlperSnapChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlperSnapChat/AlperSnapChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +416,10 @@
 		};
 		4EE4571720D99BF200A1710D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D832536FA47C9E6E511567E9 /* Pods-AlperSnapChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXLJ3EBPHP;
 				INFOPLIST_FILE = AlperSnapChat/Info.plist;
@@ -307,6 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alperalanyali.AlperSnapChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlperSnapChat/AlperSnapChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
